@@ -5,10 +5,9 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
 	// Grab a reference to the movement script
-	public GameObject[] obstacles;
+	
 	public PlayerMovement movement;
-	public Material illuminateMat;
-	public Material stdMat;
+	
 	// Set up listener for collision
 	void OnCollisionEnter(Collision collInstnace)
 	{
